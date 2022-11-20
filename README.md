@@ -54,11 +54,18 @@ Project
     4.4. model
       a) Experiment was done on five different algo
          i) Logistic regression
+         
          ii) SGD Classifier
+         
          iii) XGBoost Classifier
+         
          iv) Random Forest Classifier
+         
          v) Decision Tree Classifier
+         
       b) Random forest was the winner and it was pushed to production in MLFlow
+      
       c) This was used for prediction also (eg can be see in the task.ipynb)
+      
       d) model can be seen here - https://github.com/bharani1990/lsml2-final-mlflow/blob/main/app/best_pipe.pkl
 
