@@ -1,0 +1,8 @@
+name: lsml
+
+docker_env:
+    mlflow_app
+
+entry_points:
+    main:
+        command: "python ../app/app.py"

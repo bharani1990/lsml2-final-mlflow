@@ -1,0 +1,7 @@
+mlflow
+torch
+scikit-learn
+nltk
+WTForms
+flask
+xgboost

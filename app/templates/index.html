@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href='/static/main.css'>
+    <title>Twitter Detoxifier</title>
+    <link rel="shortcut icon" href="/static/favicon.ico">
+</head>
+<body>
+<div class="main">
+    <p align="center" class="title">Is your tweet toxic?</p>
+    <p align="center" class="text">{% from "_formhelpers.html" import render_field %}</p>
+    <form action="/results" class=form method=post>
+        <dl class="tweet">{{ render_field(form.tweet_classify) }}</dl>
+        <div>
+            <input align="center" class=submit name='submit_btn' type=submit
+                   value='Submit tweet' placeholder="Your tweet here">
+        </div>
+    </form>
+</div>
+</body>
+</html>
+

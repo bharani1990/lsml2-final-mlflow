@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <link href="/static/results.css" rel="stylesheet">
+    <title>Twitter Detoxifier</title>
+    <link rel="shortcut icon" href="/static/favicon.ico">
+</head>
+<body>
+<div class="result_main">
+    <p align="center" class="result_title">Is your tweet toxic?</p>
+    <p align="center" class="result_tweet">{{ content }}</p>
+    <p align="center" class="result_pred">{{ prediction }}</p>
+    <p align="center" class="prob"> probability: {{ probability }}%</p>
+    <a href="{{ url_for('index') }}">Back</a>
+</div>
+</body>
+</html>
