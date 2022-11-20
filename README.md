@@ -53,6 +53,7 @@ Project
      
     4.4. model
       a) Experiment was done on five different algo
+      
          i) Logistic regression
          
          ii) SGD Classifier
