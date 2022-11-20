@@ -7,13 +7,9 @@ MLflow Tracking server with nginx as frontend, MLflow runs are stored in the bac
   
 Project
 
-- [x] 1. Project documentation
-
-        Add this tomo
+- [x] 1. Project documentation is seen here - https://github.com/bharani1990/lsml2-final-mlflow/blob/main/project_documentation.pdf
         
-    1.1. design document
-
-        Add this tomo
+    1.1. design document is seen here - https://github.com/bharani1990/lsml2-final-mlflow/blob/main/project_design_document.pdf
         
     1.2. run instructions (env, commands) env can be seen here - https://github.com/bharani1990/lsml2-final-mlflow/blob/main/.env
          
