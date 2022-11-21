@@ -48,6 +48,7 @@ Project
       is seen here - https://github.com/bharani1990/lsml2-final-mlflow/tree/main/app
      
     4.4. model
+    
       a) Experiment was done on five different algo
       
          i) Logistic regression
